@@ -5,7 +5,9 @@ The Swagger Editor can be found [here](https://editor.swagger.io/). The Swagger 
 
 #### Add the openapi object  
 
-The `openapi` object is the root-level property of the specification document. 
+The `openapi` object is the root-level property of the specification document. The latest version is "3.0.2".  
+
+openapi: "3.0.2"
 
 
 
