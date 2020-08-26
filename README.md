@@ -3,7 +3,7 @@ A documentation exercise of OpenWeatherMap,org API.
 
 The Swagger Editor can be found [here](https://editor.swagger.io/). The Swagger Editor provides a split screen view where on the left you can write your code, and on the right a Swagger UI display forms in realtime.  
 
-Add the openapi object  
+####Add the openapi object  
 
 The `openapi` object is the root-level property of the specification document. 
 
