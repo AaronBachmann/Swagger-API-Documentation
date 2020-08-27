@@ -49,7 +49,9 @@ The basic format for adding a servers object to the Swagger documentation:
 
 #### Add the paths object
 
-The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.
+The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.  
+
+The operation object refers to the methods GET, POST, PUT, DELETE, amongst others. The operation object describes a sinle action on an API path.
 
 
 
