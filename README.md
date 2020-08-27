@@ -37,7 +37,11 @@ The basic format for adding a servers object to the Swagger documentation:
 >   **- url: https://api.openweathermap.org/data/2.5**  
 >   **description: Production server**
 
-![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)
+Adding multiple servers to the servers object dropdown menu:
+
+![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)  
+
+
 
 
 
