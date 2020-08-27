@@ -47,9 +47,9 @@ The basic format for adding a servers object to the Swagger documentation:
 >![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)  
 <br></br>
 
-#### Add a paths object
+#### Add the paths object
 
-
+The `paths` object refers to the endpoint of the URL call. The path contains an operations object, a parameters object, a responses object, and possibly more.
 
 
 
