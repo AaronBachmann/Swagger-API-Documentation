@@ -57,7 +57,7 @@ Adding an operation object to the API path:
 
 ![image](https://user-images.githubusercontent.com/68202736/91376650-68770380-e7d2-11ea-94bd-4caad81fb43b.png)  
 
-The operation object properties and subobjects:
+The operation object properties and sub-objects:
 
 | Field Name | Type | Description |
 |----------- |----- | ----------- |
