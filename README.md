@@ -62,6 +62,7 @@ The operation object properties and subobjects:
 | Field Name | Type | Description |
 |----------- |----- | ----------- |
 | tags       | string | A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. |
+| summary | string | A short summary of what the operation does. 5-10 words in length. The summary will display in the Swagger UI menu. |
 
 
 
