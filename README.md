@@ -35,7 +35,7 @@ The basic format for adding a servers object to the Swagger documentation:
 
 > `servers:`  
 >   `- url: https://api.openweathermap.org/data/2.5`    
->     `description: Production server`
+>         `description: Production server`
 
 Adding multiple servers to the servers object dropdown menu:
 
