@@ -2,7 +2,7 @@
 A documentation exercise of the OpenWeatherMap.org API.
 
 The Swagger Editor can be found [here](https://editor.swagger.io/). The Swagger Editor provides a split screen view where on the left you can write your code, and on the right a Swagger UI display forms in realtime.  
-
+<br></br>
 #### Add the openapi object  
 
 The `openapi` object is the root-level property of the specification document. The latest version is "3.0.2".  
@@ -40,10 +40,10 @@ The basic format for adding a servers object to the Swagger documentation:
 > `servers:`  
 >   `- url: https://api.openweathermap.org/data/2.5`    
 >    &nbsp;&nbsp;&nbsp;`description: Production server`
-
-Adding multiple servers to the servers object dropdown menu:
-
-![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)  
+>
+>Adding multiple servers to the servers object dropdown menu:
+>
+>![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)  
 <br></br>
 
 
