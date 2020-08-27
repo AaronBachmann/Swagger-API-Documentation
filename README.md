@@ -16,9 +16,9 @@ The `info` object and its properties contains any important information about th
 >`info:`  
 >&nbsp;&nbsp;`title: "OpenWeatherMap API"`
 ><br></br>
-The info object and its properties in a fully filled-out menu:  
+>The info object and its properties in a fully filled out menu:  
 
-![image](https://user-images.githubusercontent.com/68202736/91366845-b59aab80-e7b9-11ea-830d-da9c556b5c88.png)  
+>![image](https://user-images.githubusercontent.com/68202736/91366845-b59aab80-e7b9-11ea-830d-da9c556b5c88.png)  
 <br></br>
 #### Add the servers object  
 
