@@ -34,7 +34,7 @@ Adding a servers object will create a dropdown menu in the Swagger UI layout. Mu
 The basic format for adding a servers object to the Swagger documentation:  
 
 **servers:**  
-**- https://api.openweathermap.org/data/2.5**  
+**- url: https://api.openweathermap.org/data/2.5**  
   **description: Production Server**
 
 ![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)
