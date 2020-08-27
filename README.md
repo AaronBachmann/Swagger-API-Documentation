@@ -21,7 +21,7 @@ The `servers` object specifies the path of the url when the API is called. The s
 In this case: https://api.openweathermap.org/data/2.5  
 
 The endpoint is the end of the path of the URL.  
-In this case: [/weather]  
+In this case: [/weather](https://api.openweathermap.org/data/2.5/weather)    
 
 The servers object appends the endpoint to the server URL path when the API is called.  
 
