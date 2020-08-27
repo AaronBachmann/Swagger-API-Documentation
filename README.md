@@ -29,6 +29,10 @@ The servers object appends the endpoint to the server URL path when the API is c
 
 https://api.openweathermap.org/data/2.5/weather  
 
+Adding a servers object will create a dropdown menu in the Swagger UI layout. Mutiple servers can be added to the menu as needed. If you are doing testing, for example, you may use a test server for some API calls. 
+
+![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)
+
 
 
 
