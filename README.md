@@ -66,7 +66,7 @@ The operation object properties and sub-objects:
 | description | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |
 | operationId | string | A unique string identifier. The ID MUST be unique among all the operations described by the API. |
 | parameters | parameter object / reference object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the compenents object. |
-| responses | responses body object | **REQUIRED** Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |
+| responses | responses body object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |
 
 
 
