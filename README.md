@@ -51,7 +51,8 @@ The basic format for adding a servers object to the Swagger documentation:
 
 The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.  
 
-The operation object refers to the methods GET, POST, PUT, DELETE, amongst others. The operation object describes a single action on an API path.
+The operation object refers to the methods GET, POST, PUT, DELETE, amongst others. The operation object describes a single action on an API path.  
+For the OpenWeatherMap API there is only one path `/weather`, and one operation `get` for that path.
 
 
 
