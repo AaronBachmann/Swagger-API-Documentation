@@ -64,7 +64,7 @@ The operation object properties and subobjects:
 | tags       | string | A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. |
 | summary | string | A short summary of what the operation does. 5-10 words in length. The summary will display in the Swagger UI menu. |
 | description | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |
-| operationId | string | A unique string identifier. MUST be unique amon all the operations of the API |
+| operationId | string | A unique string identifier. The ID MUST be unique among all the operations described by the API |
 | parameters | parameter object / reference object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the compenents object. |
 
 
