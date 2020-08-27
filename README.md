@@ -20,8 +20,13 @@ The `info` object and its properties contains any important information about th
 The `servers` object specifies the path of the url when the API is called. The servers object is the basepath before the endpoint of the URL.  
 In this case: https://api.openweathermap.org/data/2.5  
 
-The endpoint is the end of the path of the URL.
-In this case: /weather
+The endpoint is the end of the path of the URL.  
+In this case: /weather  
+
+The servers object appends the endpoint to the server URL path when the API is called.  
+
+https://api.openweathermap.org/data/2.5/weather  
+
 
 
 
