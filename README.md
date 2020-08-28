@@ -7,7 +7,7 @@ The Swagger Editor can be found [here](https://editor.swagger.io/). The Swagger 
 
 The `openapi` object is the root-level property of the specification document. The latest version is "3.0.2".  
 
-![image](https://user-images.githubusercontent.com/68202736/91367116-7b7dd980-e7ba-11ea-902e-ef32fbc579c9.png)
+![image](https://user-images.githubusercontent.com/68202736/91619444-e9a0d880-e941-11ea-8b79-29eaf240f2de.png)
 <br></br>
 #### Add the info object  
 
@@ -18,7 +18,7 @@ The `info` object and its properties contains any important information about th
 ><br></br>
 >The info object and its properties in a fully filled out menu:  
 
->![image](https://user-images.githubusercontent.com/68202736/91366845-b59aab80-e7b9-11ea-830d-da9c556b5c88.png)  
+>![image](https://user-images.githubusercontent.com/68202736/91619352-b5c5b300-e941-11ea-9d25-89a3a843cd41.png)
 <br></br>
 #### Add the servers object  
 
