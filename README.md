@@ -44,7 +44,7 @@ The basic format for adding a servers object to the Swagger documentation:
 >
 >Adding multiple servers to the servers object dropdown menu:
 >
->![image](https://user-images.githubusercontent.com/68202736/91369700-504ab880-e7c1-11ea-80be-63dc3288631a.png)  
+>![image](https://user-images.githubusercontent.com/68202736/91619217-5b2c5700-e941-11ea-98a2-99f1448ec031.png)
 <br></br>
 
 #### Add the paths object
