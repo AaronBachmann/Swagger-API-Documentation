@@ -19,6 +19,11 @@ The `info` object and its properties contains any important information about th
 >The info object and its properties in a fully filled out menu:  
 
 >![image](https://user-images.githubusercontent.com/68202736/91619352-b5c5b300-e941-11ea-9d25-89a3a843cd41.png)
+
+The info object in JSON example:  
+
+![image](https://user-images.githubusercontent.com/68202736/91621681-ce859700-e948-11ea-845e-ede0db60beb1.png)
+
 <br></br>
 ### Add the servers object  
 
