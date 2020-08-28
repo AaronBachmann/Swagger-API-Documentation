@@ -54,7 +54,7 @@ The servers object JSON example:
 
 ![image](https://user-images.githubusercontent.com/68202736/91621865-87e46c80-e949-11ea-89a2-22335298b795.png)
 
-<br></br>
+
 ### Add the paths object
 
 The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.  
