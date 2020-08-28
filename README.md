@@ -11,7 +11,7 @@ The `openapi` object is the root-level property of the specification document. T
 <br></br>
 ### Add the info object  
 
-The `info` object and its properties contains any important information about the API. The info object may indlude a title, description, contact information, license version, and/or terms of service. Many of the info object properties are optional. In this tutorial the API documentation is written in [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html). YAML indentation requires two spaces per level of identation. Tabs will not fit the formatting style. Text in the info object MUST be surrounded by quotations " ". Text in the info object is treated as a *"string"*.
+The `info` object and its properties contains any important information about the API. The info object may indlude a title, description, contact information, license version, and/or terms of service. Many of the info object properties are optional. In this tutorial the API documentation is written in [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html). YAML indentation requires two spaces per level of identation. Tabs will not fit the formatting style. Text in the info object MUST be surrounded by quotations " ". Text in the info object is treated as a `"string"`.
 
 >`info:`  
 >&nbsp;&nbsp;`title: "OpenWeatherMap API"`
