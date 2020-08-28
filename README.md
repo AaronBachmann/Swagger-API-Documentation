@@ -88,7 +88,11 @@ The `parameters` object describes a single parameter object. A unique identifier
 
 There are four possible locations for the parameters object in the `in` field:
 - path - Does not include the basepath of the URL endpoint. `/items/{item_endpoint}` Path parameter = `{item_endpoint}`  
-- 
+- query - Parameters that are appended to the URL endpoint. `/items?id=9812` Query parameter = `id`  
+- header - Custom headers that are added to the request. Headers are case sensitive.  
+- cookie - Passes a specific cookie value to the API.  
+
+
 
 
 
