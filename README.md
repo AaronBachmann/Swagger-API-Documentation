@@ -55,7 +55,7 @@ The operation object refers to the methods GET, POST, PUT, DELETE, among others.
 
 Adding an operation object to the API path:  
 
-![image](https://user-images.githubusercontent.com/68202736/91376650-68770380-e7d2-11ea-94bd-4caad81fb43b.png)  
+![image](https://user-images.githubusercontent.com/68202736/91619044-e6f1b380-e940-11ea-9cea-b5840d85bb35.png)
 <br></br>
 The operation object properties and sub-objects:
 
