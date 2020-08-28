@@ -15,7 +15,7 @@ The `info` object and its properties contains any important information about th
 
 >`info:`  
 >&nbsp;&nbsp;`title: "OpenWeatherMap API"`
-><br></br>
+
 The info object and its properties in a fully filled out menu:  
 
 ![image](https://user-images.githubusercontent.com/68202736/91619352-b5c5b300-e941-11ea-9d25-89a3a843cd41.png)
