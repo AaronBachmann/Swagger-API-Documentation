@@ -71,9 +71,9 @@ The operation object properties and sub-objects:
 | responses | Responses Body Object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |  
 | callbacks | Map[`string`, Callback Object / Reference Object] | A map of possible callbacks related to the parent operation. Initiated after a method executes. The key value is used to identify the URL for the callback operation. The callback operation can also include a reference object that points to the description in the components object. |  
 | deprecated | boolean | Declares the operation should be discontinued. The operation SHOULD not be used. Default value is false. |  
-| security | Security Requirement Object | Declares what authorization method can be used with the operation. Only one security object requirement is needed to authorize a request. This definition overrides the security object at the root-level. An empty array {} can be used to remove a root-level scurity declaration. |  
+| security | Security Requirement Object | Declares what authorization method can be used with the operation. Only one security object requirement is needed to authorize a request. This definition overrides the security object at the root-level. An empty array {} can be used to remove a root-level security declaration. |  
 | servers | Server Object | An alternate server array to service the operation. An alternate server object will override the server declared at the root-level. |  
-<br></br>
+
   
 
 
