@@ -9,7 +9,7 @@ The `openapi` object is the root-level property of the specification document. T
 
 ![image](https://user-images.githubusercontent.com/68202736/91619444-e9a0d880-e941-11ea-8b79-29eaf240f2de.png)
 <br></br>
-#### Add the info object  
+### Add the info object  
 
 The `info` object and its properties contains any important information about the API. The info object may indlude a title, description, contact information, license version, and/or terms of service. Many of the info object properties are optional. In this tutorial the API documentation is written in [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html). YAML indentation requires two spaces per level of identation. Tabs will not fit the formatting style. Text in the info object MUST be surrounded by quotations " ". Text in the info object is treated as a *"string"*.
 
@@ -20,7 +20,7 @@ The `info` object and its properties contains any important information about th
 
 >![image](https://user-images.githubusercontent.com/68202736/91619352-b5c5b300-e941-11ea-9d25-89a3a843cd41.png)
 <br></br>
-#### Add the servers object  
+### Add the servers object  
 
 The `servers` object specifies the path of the url when the API is called. The servers object is the basepath before the endpoint of the URL.  
 
@@ -47,11 +47,13 @@ The basic format for adding a servers object to the Swagger documentation:
 >![image](https://user-images.githubusercontent.com/68202736/91619217-5b2c5700-e941-11ea-98a2-99f1448ec031.png)
 <br></br>
 
-#### Add the paths object
+### Add the paths object
 
 The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.  
 
 The operation object refers to the methods GET, POST, PUT, DELETE, among others. The operation object describes a single action on an API path. For the OpenWeatherMap API there is only one path `/weather`, and one method `get` for that path.  
+
+#### Add the operation object
 
 Adding the necessary operation object and properties to the OpenWeatherMap API path:  
 
@@ -74,9 +76,11 @@ The operation object properties and sub-objects:
 | security | Security Requirement Object | Declares what authorization method can be used with the operation. Only one security object requirement is needed to authorize a request. This definition overrides the security object at the root-level. An empty array {} can be used to remove a root-level security declaration. |  
 | servers | Server Object | An alternate server array to service the operation. An alternate server object will override the server declared at the root-level. |  
 
-The operation object and its properites before the parameter object is added:
+The operation object and its properites before the parameters object is added:
 
 ![image](https://user-images.githubusercontent.com/68202736/91619800-fbcf4680-e942-11ea-9378-ca81ee694409.png)
+
+#### Add the parameters object
 
   
 
