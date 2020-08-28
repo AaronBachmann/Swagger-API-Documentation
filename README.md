@@ -64,11 +64,12 @@ The operation object properties and sub-objects:
 | tags       | string | A list of tags for organizing API paths. Tags can be used for logical grouping of operations by resources. Swagger UI will group paths by tag headings. |
 | summary | string | A short summary of the operation behavior. 5-10 words in length. The summary will display in the Swagger UI menu. |
 | description | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |  
-| externalDocs | External Documents Object | Optional link to further documentation describing the path. |  
+| externalDocs | External Documentation Object | Optional link to further documentation describing the path. |  
 | operationId | string | A unique string identifier. The ID MUST be unique among all the operations described by the API. |
-| parameters | parameter object / reference object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the description in the  compenents object. |  
-| requestBody | Request body Object / Reference Object | The request body parameters for this path. Request body parameters are only applicable by cacheable HTTP methods, mainly GET and HEAD. | 
-| responses | responses body object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |
+| parameters | Parameter Object / Reference Object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the description in the  compenents object. |  
+| requestBody | Request Body Object / Reference Object | The request body parameters for this path. The parameter can also include a reference object that points to the description in the  compenents object. Request body parameters are only applicable by cacheable HTTP methods, mainly GET and HEAD. | 
+| responses | Responses Body Object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |  
+| callback | Map[`string`, Callback Object / Reference Object] | A map of possible callbacks related to the parent operation. Initiated after a method executes. The key value is used to identify the URL for the callback operation. The callback operation can also include a reference object that points to the description in the components object. |  
 
 
 
