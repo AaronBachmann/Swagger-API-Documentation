@@ -20,7 +20,7 @@ The info object and its properties in a fully filled out menu:
 
 ![image](https://user-images.githubusercontent.com/68202736/91619352-b5c5b300-e941-11ea-9d25-89a3a843cd41.png)
 
-The info object in JSON example:  
+The info object JSON example:  
 
 ![image](https://user-images.githubusercontent.com/68202736/91621681-ce859700-e948-11ea-845e-ede0db60beb1.png)
 <br></br>
@@ -53,8 +53,7 @@ The basic format for adding a servers object to the Swagger documentation:
 The servers object JSON example:  
 
 ![image](https://user-images.githubusercontent.com/68202736/91621865-87e46c80-e949-11ea-89a2-22335298b795.png)
-
-
+<br></br>
 ### Add the paths object
 
 The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.  
