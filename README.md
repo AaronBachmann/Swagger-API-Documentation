@@ -51,7 +51,7 @@ The basic format for adding a servers object to the Swagger documentation:
 
 The `paths` object refers to the endpoint of the URL call. The path contains an operation object, a parameters object, a responses object, and possibly more.  
 
-The operation object refers to the methods GET, POST, PUT, DELETE, amongst others. The operation object describes a single action on an API path. For the OpenWeatherMap API there is only one path `/weather`, and one method `get` for that path.  
+The operation object refers to the methods GET, POST, PUT, DELETE, among others. The operation object describes a single action on an API path. For the OpenWeatherMap API there is only one path `/weather`, and one method `get` for that path.  
 
 Adding an operation object to the API path:  
 
@@ -61,11 +61,13 @@ The operation object properties and sub-objects:
 
 | Field Name | Type | Description |
 |----------- |----- | ----------- |
-| tags       | string | A list of tags for API documentation control. Tags can be used for logical grouping of operations by resources or any other qualifier. |
-| summary | string | A short summary of what the operation does. 5-10 words in length. The summary will display in the Swagger UI menu. |
-| description | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |
+| tags       | string | A list of tags for organizing API paths. Tags can be used for logical grouping of operations by resources. Swagger UI will group paths by tag headings. |
+| summary | string | A short summary of the operation behavior. 5-10 words in length. The summary will display in the Swagger UI menu. |
+| description | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |  
+| externalDocs | External Documents Object | Optional link to further documentation describing the path. |  
 | operationId | string | A unique string identifier. The ID MUST be unique among all the operations described by the API. |
-| parameters | parameter object / reference object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the description in the  compenents object. |
+| parameters | parameter object / reference object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the description in the  compenents object. |  
+| requestBody | Request body Object / Reference Object | The request body parameters for this path. Request body parameters are only applicable by cacheable HTTP methods, mainly GET and HEAD. | 
 | responses | responses body object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |
 
 
