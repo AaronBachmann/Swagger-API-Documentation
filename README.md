@@ -87,7 +87,12 @@ The operation object properties and sub-objects:
 
 The operation object and its properites before the parameters object is added:
 
-![image](https://user-images.githubusercontent.com/68202736/91619800-fbcf4680-e942-11ea-9378-ca81ee694409.png)
+![image](https://user-images.githubusercontent.com/68202736/91619800-fbcf4680-e942-11ea-9378-ca81ee694409.png)  
+
+The operation object JSON example:  
+
+![image](https://user-images.githubusercontent.com/68202736/91622504-39849d00-e94c-11ea-9e5f-b851a37f16a7.png)  
+
 
 #### Add the parameters object  
 
