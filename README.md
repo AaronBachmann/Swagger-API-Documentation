@@ -53,7 +53,7 @@ The `paths` object refers to the endpoint of the URL call. The path contains an 
 
 The operation object refers to the methods GET, POST, PUT, DELETE, among others. The operation object describes a single action on an API path. For the OpenWeatherMap API there is only one path `/weather`, and one method `get` for that path.  
 
-Adding an operation object to the API path:  
+Adding the necessary operation object and properties to the OpenWeatherMap API path:  
 
 ![image](https://user-images.githubusercontent.com/68202736/91619044-e6f1b380-e940-11ea-9cea-b5840d85bb35.png)
 <br></br>
