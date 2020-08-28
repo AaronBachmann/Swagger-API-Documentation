@@ -20,9 +20,9 @@ The info object and its properties in a fully filled out menu:
 
 ![image](https://user-images.githubusercontent.com/68202736/91619352-b5c5b300-e941-11ea-9d25-89a3a843cd41.png)
 
-The info object JSON example:  
-
-![image](https://user-images.githubusercontent.com/68202736/91621681-ce859700-e948-11ea-845e-ede0db60beb1.png)
+>The info object JSON example:  
+>
+>![image](https://user-images.githubusercontent.com/68202736/91621681-ce859700-e948-11ea-845e-ede0db60beb1.png)
 <br></br>
 ### Add the servers object  
 
@@ -45,14 +45,14 @@ The basic format for adding a servers object to the Swagger documentation:
 > `servers:`  
 >   `- url: https://api.openweathermap.org/data/2.5`    
 >    &nbsp;&nbsp;&nbsp;`description: Production server`
->
->Adding multiple servers to the servers object dropdown menu:
->
->![image](https://user-images.githubusercontent.com/68202736/91619217-5b2c5700-e941-11ea-98a2-99f1448ec031.png)
 
-The servers object JSON example:  
+Adding multiple servers to the servers object dropdown menu:
 
-![image](https://user-images.githubusercontent.com/68202736/91621865-87e46c80-e949-11ea-89a2-22335298b795.png)
+![image](https://user-images.githubusercontent.com/68202736/91619217-5b2c5700-e941-11ea-98a2-99f1448ec031.png)
+
+>The servers object JSON example:  
+>
+>![image](https://user-images.githubusercontent.com/68202736/91621865-87e46c80-e949-11ea-89a2-22335298b795.png)
 <br></br>
 ### Add the paths object
 
@@ -89,9 +89,9 @@ The operation object and its properites before the parameters object is added:
 
 ![image](https://user-images.githubusercontent.com/68202736/91619800-fbcf4680-e942-11ea-9378-ca81ee694409.png)  
 
-The operation object JSON example:  
-
-![image](https://user-images.githubusercontent.com/68202736/91622504-39849d00-e94c-11ea-9e5f-b851a37f16a7.png)  
+>The operation object JSON example:  
+>
+>![image](https://user-images.githubusercontent.com/68202736/91622504-39849d00-e94c-11ea-9e5f-b851a37f16a7.png)  
 
 
 #### Add the parameters object  
