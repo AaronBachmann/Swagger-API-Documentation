@@ -74,6 +74,10 @@ The operation object properties and sub-objects:
 | security | Security Requirement Object | Declares what authorization method can be used with the operation. Only one security object requirement is needed to authorize a request. This definition overrides the security object at the root-level. An empty array {} can be used to remove a root-level security declaration. |  
 | servers | Server Object | An alternate server array to service the operation. An alternate server object will override the server declared at the root-level. |  
 
+The operation object and its properites before the parameter object is added:
+
+![image](https://user-images.githubusercontent.com/68202736/91619800-fbcf4680-e942-11ea-9378-ca81ee694409.png)
+
   
 
 
