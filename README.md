@@ -3,7 +3,7 @@ A documentation exercise of the OpenWeatherMap.org API.
 
 The Swagger Editor can be found [here](https://editor.swagger.io/). The Swagger Editor provides a split screen view where on the left you can write your code, and on the right a Swagger UI display forms in realtime.
 <br></br>
-#### Add the openapi object  
+### Add the openapi object  
 
 The `openapi` object is the root-level property of the specification document. The latest version is "3.0.2".  
 
@@ -80,9 +80,19 @@ The operation object and its properites before the parameters object is added:
 
 ![image](https://user-images.githubusercontent.com/68202736/91619800-fbcf4680-e942-11ea-9378-ca81ee694409.png)
 
-#### Add the parameters object
+#### Add the parameters object  
 
-  
+The `parameters` object describes a single parameter object. A unique identifier is defined by a name and a location.  
+
+##### Parameter locations  
+
+There are four possible locations for the parameters object in the `in` field:
+- path - Does not include the basepath of the URL endpoint. `/items/{item_endpoint}` Path parameter = `{item_endpoint}`  
+- 
+
+
+
+
 
 
 
