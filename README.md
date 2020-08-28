@@ -63,18 +63,20 @@ The operation object properties and sub-objects:
 
 | Field Name | Type | Description |
 |----------- |----- | ----------- |
-| tags       | string | A list of tags for organizing API paths. Tags can be used for logical grouping of operations by resources. Swagger UI will group paths by tag headings. |
-| summary | string | A short summary of the operation behavior. 5-10 words in length. The summary will display in the Swagger UI menu. |
-| description | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |  
+| **tags**       | string | A list of tags for organizing API paths. Tags can be used for logical grouping of operations by resources. Swagger UI will group paths by tag headings. |
+| **summary** | string | A short summary of the operation behavior. 5-10 words in length. The summary will display in the Swagger UI menu. |
+| **description** | string | A longer explanation of the operation behavior. CommonMark syntax MAY be used for formatting. |  
 | externalDocs | External Documentation Object | Optional link to further documentation describing the path. |  
-| operationId | string | A unique string identifier. The ID MUST be unique among all the operations described by the API. |
-| parameters | Parameter Object / Reference Object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the description in the  compenents object. |  
+| **operationId** | string | A unique string identifier. The ID MUST be unique among all the operations described by the API. |
+| **parameters** | Parameter Object / Reference Object | A list of parameters to help filter the information the operation returns. If a parameter is defined at the path item, this entry will override it. A unique parameter is described by a name and location. The parameter can also include a reference object that points to the description in the  compenents object. |  
 | requestBody | Request Body Object / Reference Object | The request body parameters for this path. The parameter can also include a reference object that points to the description in the  compenents object. Request body parameters are only applicable by cacheable HTTP methods, mainly GET and HEAD. For more [information](https://tools.ietf.org/html/rfc7231#section-4.3.1) | 
-| responses | Responses Body Object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |  
+| **responses** | Responses Body Object | **REQUIRED**. Responses provided with requests from this path. The responses object can also include a reference object that points to the description in the components object. |  
 | callbacks | Map[`string`, Callback Object / Reference Object] | A map of possible callbacks related to the parent operation. Initiated after a method executes. The key value is used to identify the URL for the callback operation. The callback operation can also include a reference object that points to the description in the components object. |  
 | deprecated | boolean | Declares the operation should be discontinued. The operation SHOULD not be used. Default value is false. |  
 | security | Security Requirement Object | Declares what authorization method can be used with the operation. Only one security object requirement is needed to authorize a request. This definition overrides the security object at the root-level. An empty array {} can be used to remove a root-level security declaration. |  
 | servers | Server Object | An alternate server array to service the operation. An alternate server object will override the server declared at the root-level. |  
+
+**Note:** **Bold** denotes properties and objects necessary for OpenWeatherMap API.  
 
 The operation object and its properites before the parameters object is added:
 
