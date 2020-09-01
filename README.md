@@ -124,6 +124,12 @@ The parameters object with search parameter options for units and language.
 
 ![image](https://user-images.githubusercontent.com/68202736/91916708-a496e200-ec72-11ea-850c-3d38ef13ed59.png)  
 
+The parameters object with search parameter options for the mode of the response.  
+
+![image](https://user-images.githubusercontent.com/68202736/91916935-59c99a00-ec73-11ea-97d4-b1f70e0847a9.png)  
+
+
+
 
 
 
