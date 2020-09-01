@@ -109,12 +109,7 @@ There are four possible locations for the parameters object in the `in` field:
 Adding parameter objects to the Swagger UI. 
 For OpenWeatherMap the parameters object structure is as follows:  
 
->`parameters:`  
->&nbsp;&nbsp;`- name:`   
->&nbsp;&nbsp;&nbsp;`in:`  
->&nbsp;&nbsp;&nbsp;`description:`  
->&nbsp;&nbsp;&nbsp;`schema:`  
->&nbsp;&nbsp;&nbsp;&nbsp;`type:  `
+![image](https://user-images.githubusercontent.com/68202736/91915990-d5761780-ec70-11ea-87ef-f42a8b2f6d55.png)  
 
 
 The parameters object with search parameter options by city name and city ID.  
