@@ -106,6 +106,20 @@ There are four possible locations for the parameters object in the `in` field:
 - header - Custom headers that are added to the request. Headers are case sensitive.  
 - cookie - Passes a specific cookie value to the API.  
 
+Adding parameter objects to the Swagger UI. 
+For OpenWeatherMap the parameters object structure is as follows:  
+
+>`parameters:  
+>&nbsp;&nbsp;- name:   
+>&nbsp;&nbsp;&nbsp;in:  
+>&nbsp;&nbsp;&nbsp;description: 
+>&nbsp;&nbsp;&nbsp;schema:
+>&nbsp;&nbsp;&nbsp;&nbsp;type:
+
+The parameters object with search parameter options by city name and city ID.  
+
+![image](https://user-images.githubusercontent.com/68202736/91915375-3ac90900-ec6f-11ea-889a-09a60c6c5657.png)
+
 
 
 
