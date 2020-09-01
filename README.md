@@ -114,7 +114,13 @@ For OpenWeatherMap the parameters object structure is as follows:
 
 The parameters object with search parameter options by city name and city ID.  
 
-![image](https://user-images.githubusercontent.com/68202736/91915375-3ac90900-ec6f-11ea-889a-09a60c6c5657.png)
+![image](https://user-images.githubusercontent.com/68202736/91915375-3ac90900-ec6f-11ea-889a-09a60c6c5657.png)  
+
+The parameter object with search parameter options for Latitude, Longitude, and zip code. **Note**: Latitude and Longitude MUST be used together.  
+
+![image](https://user-images.githubusercontent.com/68202736/91916346-cb084d80-ec71-11ea-8d5c-576494f6e88a.png)
+
+
 
 
 
