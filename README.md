@@ -118,7 +118,7 @@ The parameters object with search parameter options by city name and city ID.
 
 The parameter object with search parameter options for Latitude, Longitude, and zip code. **Note**: Latitude and Longitude MUST be used together.  
 
-![image](https://user-images.githubusercontent.com/68202736/91916346-cb084d80-ec71-11ea-8d5c-576494f6e88a.png)
+![image](https://user-images.githubusercontent.com/68202736/91916472-1589ca00-ec72-11ea-8d1e-d29af7cfc865.png)
 
 
 
