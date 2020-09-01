@@ -112,9 +112,10 @@ For OpenWeatherMap the parameters object structure is as follows:
 >`parameters:  
 >&nbsp;&nbsp;- name:   
 >&nbsp;&nbsp;&nbsp;in:  
->&nbsp;&nbsp;&nbsp;description: 
->&nbsp;&nbsp;&nbsp;schema:
->&nbsp;&nbsp;&nbsp;&nbsp;type:
+>&nbsp;&nbsp;&nbsp;description:  
+>&nbsp;&nbsp;&nbsp;schema:  
+>&nbsp;&nbsp;&nbsp;&nbsp;type:  `
+
 
 The parameters object with search parameter options by city name and city ID.  
 
